@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+/* body{
+    --rebecca-purple: hsl(270, 60%, 15%);
+  background-image: linear-gradient(
+    to bottom right, 
+    hsla(203, 92%, 35.5%, 0.25), 
+    var(--rebecca-purple), 
+    hsla(27.6, 87.1%, 35.7%, 0.25)
+  );
+  background-color: var(--rebecca-purple);
+} */
