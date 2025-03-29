@@ -65,6 +65,7 @@
   font-family: 'Poppins', sans-serif;
   color: #101010;
   background-color: #830c0c;
+  
 }
 
 .layout_padding {
@@ -129,7 +130,7 @@
 /*header section*/
 .hero_area{
   height: 100vh;
-  background-image:url(/assets/images/hero-bg.png);
+  background-image:url(https://res.cloudinary.com/dzcdirj0l/image/upload/v1743182252/hero-bg_afujwe.png);
 }
 
 .sub_page .hero_area {
@@ -179,6 +180,22 @@
 .home-button.nav-link:hover {
   color: white !important;
 }
+
+.color-chart-button:hover,.contact-us-button:hover{
+  border: #c89666 2px solid;
+  border-radius: 40px;
+  background-color: linear-gradient(#e1b382 100%);
+  color: white!important;
+  
+}
+.color-chart-button,.contact-us-button {
+  transition: all 0.3s ease-in-out; /* Add smooth transition */
+}
+.color-chart-button:hover,.contact-us-button.nav-link:hover {
+  color: white !important;
+}
+
+
 
 .custom_nav-container .user_option {
   display: -webkit-box;
@@ -256,7 +273,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
-  background-image: url(/assets/images/menu.png);
+  background-image: url(https://res.cloudinary.com/dzcdirj0l/image/upload/v1743182251/menu_gwufdp.png);
   background-size: 55px;
 }
 
@@ -314,9 +331,9 @@ a:focus {
 
 .carousel-control-prev,
 .carousel-control-next {
-  background-color: #0caa7d;
+  /* background-color: #0caa7d; */
   background-repeat: no-repeat;
-  background-size: 10px;
+  /* background-size: 3px; */
   background-position: center;
   opacity: 1;
   border-radius: 7px;
@@ -324,23 +341,23 @@ a:focus {
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
-  background-color: #fb1004;
+  background-color: #8d8989;
 }
 
 .carousel-control-prev {
-  background-image: url(/assets/images/left-arrow-black.png);
+  background-image: url(https://res.cloudinary.com/dzcdirj0l/image/upload/v1743182253/left-arrow-black_lilnnm.png);
 }
 
 .carousel-control-prev:hover {
-  background-image: url(/assets/images/left-arrow-white.png);
+  background-image: url(https://res.cloudinary.com/dzcdirj0l/image/upload/v1743182254/left-arrow-white_oao8dm.png);
 }
 
 .carousel-control-next {
-  background-image: url(/assets/images/right-arrow-black.png);
+  background-image: url(https://res.cloudinary.com/dzcdirj0l/image/upload/v1743182255/right-arrow-black_zoexws.png);
 }
 
 .carousel-control-next:hover {
-  background-image: url(/assets/images/right-arrow-white.png);
+  background-image: url(https://res.cloudinary.com/dzcdirj0l/image/upload/v1743182255/right-arrow-white_hrcyc7.png);
 }
 
 .menu_fixed-position {
@@ -3923,8 +3940,9 @@ input[type="button"].btn-block {
 
 .dropdown-menu {
   position: absolute;
-  top: 100%;
-  left: 0;
+  /* top: 100%; */
+  /* left: 0; */
+  margin-left: 275px !important;
   z-index: 1000;
   display: none;
   float: left;
@@ -3943,7 +3961,7 @@ input[type="button"].btn-block {
 
 .dropdown-menu-left {
   right: auto;
-  left: 0;
+  /* left: 0; */
 }
 
 .dropdown-menu-right {
@@ -3954,7 +3972,7 @@ input[type="button"].btn-block {
 @media (min-width: 576px) {
   .dropdown-menu-sm-left {
     right: auto;
-    left: 0;
+    /* left: 0; */
   }
   .dropdown-menu-sm-right {
     right: 0;
@@ -3965,7 +3983,7 @@ input[type="button"].btn-block {
 @media (min-width: 768px) {
   .dropdown-menu-md-left {
     right: auto;
-    left: 0;
+    /* left: 0; */
   }
   .dropdown-menu-md-right {
     right: 0;
@@ -10904,3 +10922,9 @@ a.text-dark:hover, a.text-dark:focus {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
+.product-list{
+  display: flex;
+  justify-content: center;  /* Horizontally center */
+  align-items: center; 
+  
+}

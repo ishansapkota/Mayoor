@@ -1,1 +1,180 @@
-<p>colorchart works!</p>
+<div class="hero_area">
+  <!-- header section strats -->
+  <header class="header_section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+        <a class="navbar-brand" [routerLink]="['']">
+          <img src="mayoor_nobg.png" alt="" />
+          <span>
+            Mayoor
+          </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item home-button">
+              <a class="nav-link active" aria-current="page" [routerLink]="['']">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Product
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" [routerLink]="['/products/1kSeries']">1K Series</a></li>
+                <li><a class="dropdown-item" [routerLink]="['/products/2kSeries']">2K Series</a></li>
+                <li><a class="dropdown-item" [routerLink]="['/products/A2kSeries']">A2k Series</a></li>
+                <li><a class="dropdown-item" [routerLink]="['/products/clearcostSeries']">Clear Cost
+                    Series</a></li>
+                <li><a class="dropdown-item" [routerLink]="['/products/auxSeries']">Auxillary Series</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item color-chart-button">
+              <a class="nav-link" [routerLink]="['/colorchart']">Color Chart</a>
+            </li>
+            <li class="nav-item contact-us-button">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+</div>
+<section style="background-image: url(https://res.cloudinary.com/dzcdirj0l/image/upload/v1743182252/hero-bg_afujwe.png); padding-bottom: 35px;">
+  <div>
+    <h3 style="margin-left: 450px; color: #0878a0;">
+      Color Chart
+      
+    </h3>
+    <p style="margin-left: 450px; color: #0878a0;">
+      Click the image to zoom.
+    </p>
+  </div>
+  <div class="image-container" style="justify-content: center;">
+    <a href="https://res.cloudinary.com/dzcdirj0l/image/upload/v1743249961/Mayoor_chart-1-min_vqmc6g.jpg">
+      <img src="https://res.cloudinary.com/dzcdirj0l/image/upload/v1743249961/Mayoor_chart-1-min_vqmc6g.jpg"
+      alt="Zoomable Image" class="zoom-image" id="zoomImage">
+    </a>
+    
+  </div>
+</section>
+
+<section class="info_section layout_padding-top layout_padding2-bottom" style="padding-top: 75px; padding-bottom: 50px;">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6 col-lg-3">
+              <div class="info_links pl-lg-5">
+                  <h4>
+                      Menu
+                  </h4>
+                  <ul>
+                      <li class="active">
+                          <a href="index.html">
+                              Home
+                          </a>
+                      </li>
+                      <li>
+                          <a href="about.html">
+                              About
+                          </a>
+                      </li>
+                      <li>
+                          <a class="" href="portfolio.html">Portfolio </a>
+                      </li>
+                      <li>
+                          <a class="" href="service.html">Services</a>
+                      </li>
+                      <li>
+                          <a href="contact.html">
+                              Contact Us
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+              <div class="info_contact">
+                  <h4>
+                      Location
+                  </h4>
+                  <div>
+                      <img src="/assets/images/location.png" alt="" />
+                      <p>
+                          104 loram ipusm
+                      </p>
+                  </div>
+                  <div>
+                      <img src="/assets/images/telephone.png" alt="" />
+                      <p>
+                          ( +01 1234567890 )
+                      </p>
+                  </div>
+                  <div>
+                      <img src="/assets/images/envelope.png" alt="" />
+                      <p>
+                          demogmail.com
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+              <div class="info_social">
+                  <h4>
+                      Social Link
+                  </h4>
+                  <div class="social_container">
+                      <div>
+                          <a href="">
+                              <img src="/assets/images/facebook-logo.png" alt="" />
+                          </a>
+                      </div>
+                      <div>
+                          <a href="">
+                              <img src="/assets/images/twitter-logo.png" alt="" />
+                          </a>
+                      </div>
+                      <div>
+                          <a href="">
+                              <img src="/assets/images/instagram.png" alt="" />
+                          </a>
+                      </div>
+                      <div>
+                          <a href="">
+                              <img src="/assets/images/linkedin-sign.png" alt="" />
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+              <div class="info_form">
+                  <h4>
+                      Newsletter
+                  </h4>
+                  <form action="#">
+                      <input type="text" placeholder="Enter Your Email" />
+                      <button type="submit">
+                          Subscribe
+                      </button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- end info_section -->
+
+<!-- footer section -->
+<footer class="container-fluid footer_section">
+  <p>
+      &copy; 2019 All Rights Reserved By
+      <a href="https://html.design/">Free Html Templates</a>
+  </p>
+</footer>
+<!-- footer section -->
