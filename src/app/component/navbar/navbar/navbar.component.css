@@ -66,7 +66,7 @@
 
 /*header section*/
 .hero_area{
-  height: 100vh;
+  /* height: 100vh; */
   /* background-image:url(https://res.cloudinary.com/dzcdirj0l/image/upload/v1743182252/hero-bg_afujwe.png); */
   /* background-image: url(https://res.cloudinary.com/dzcdirj0l/image/upload/v1743327420/8722417_fbz54m.jpg) */
 }
