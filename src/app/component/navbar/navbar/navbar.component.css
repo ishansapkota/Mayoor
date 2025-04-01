@@ -3906,10 +3906,14 @@ input[type="button"].btn-block {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  /* background-color: #fff; */
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
+  background: linear-gradient(10deg, white, transparent);
+  /* opacity: 0; */
+  /* transform: translateY(-10px); Start slightly above */
+  /* transition: opacity 0.3s ease, transform 0.3s ease; */
 }
 
 .dropdown-menu-left {
@@ -3930,6 +3934,12 @@ input[type="button"].btn-block {
   .dropdown-menu-sm-right {
     right: 0;
     left: auto;
+  }
+}
+@media (max-width: 991px){
+  .dropdown-menu{
+    margin-left: 0px !important;
+    background: linear-gradient(10deg, white, transparent);
   }
 }
 
