@@ -42,6 +42,9 @@ export class ProductsComponent implements OnInit {
             { name: 'Sub-product 1k', image: 'https://res.cloudinary.com/dzcdirj0l/image/upload/v1743182253/p-4_mmovgz.png', price: '$10.00' },
             { name: 'Sub-product 1K', image: 'https://res.cloudinary.com/dzcdirj0l/image/upload/v1743182253/p-4_mmovgz.png', price: '$15.00' },
             { name: 'Sub-product 1k', image: 'https://res.cloudinary.com/dzcdirj0l/image/upload/v1743182253/p-4_mmovgz.png', price: '$20.00' },
+            { name: 'Sub-product 1k', image: 'https://res.cloudinary.com/dzcdirj0l/image/upload/v1743182253/p-4_mmovgz.png', price: '$20.00' },
+            //{ name: 'Sub-product 1k', image: 'https://res.cloudinary.com/dzcdirj0l/image/upload/v1743182253/p-4_mmovgz.png', price: '$20.00' },
+            // { name: 'Sub-product 1k', image: 'https://res.cloudinary.com/dzcdirj0l/image/upload/v1743182253/p-4_mmovgz.png', price: '$20.00' },
         ];
 
       } else if (this.productName === '2kSeries') {
