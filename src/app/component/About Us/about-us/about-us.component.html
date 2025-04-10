@@ -1,1 +1,191 @@
-<p>about-us works!</p>
+<body style="background-image: url(/yusuf-background-flipped.png);">
+    <div class="hero_area">
+        <!-- header section strats -->
+        <header class="header_section">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+                    <a class="navbar-brand" [routerLink]="['']">
+                        <img src="mayoor_nobg.png" alt="" />
+                        <span style="color: white;">
+                            MK
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item home-button">
+                                <a class="nav-link active" aria-current="page" [routerLink]="['']">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Product
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" [routerLink]="['/products/1kSeries']">1K Series</a></li>
+                                    <li><a class="dropdown-item" [routerLink]="['/products/2kSeries']">2K Series</a></li>
+                                    <li><a class="dropdown-item" [routerLink]="['/products/A2kSeries']">A2k Series</a></li>
+                                    <li><a class="dropdown-item" [routerLink]="['/products/clearcostSeries']">Clear Cost
+                                            Series</a></li>
+                                    <li><a class="dropdown-item" [routerLink]="['/products/auxSeries']">Auxillary Series</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item color-chart-button">
+                                <a class="nav-link" [routerLink]="['/colorchart']">Color Chart</a>
+                            </li>
+                            <li class="nav-item contact-us-button">
+                                <a class="nav-link" [routerLink]="['/about-us']">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+    
+    
+                    
+                </nav>
+            </div>
+        </header>
+    </div>
+
+<section class="about-section">
+    <div class="container">
+        <div class="row">                
+            <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+                <div class="inner-column">
+                    <div class="sec-title">
+                        <h1 class="title" style="color: white;">About Company</h1>
+                    </div>
+                    <div class="text" style="color: white;">At our state-of-the-art facility, innovation, precision, and reliability come together to create exceptional automotive paint solutions. With a commitment to quality, our modern factory blends traditional craftsmanship with advanced technology and sustainable practices. Every step of our production process is monitored by experienced professionals, ensuring each product meets stringent quality standards that you can trust.
+                        Our dedicated team drives continuous improvement by embracing forward-thinking techniques and rigorous testing protocols. This approach not only guarantees performance and durability across every batch but also reinforces our position as a leader in the automotive paint industry. We take pride in pushing boundaries while maintaining consistency in color, finish, and protection—qualities that help enhance and preserve the beauty of every vehicle.
+                        In our facility, quality is more than just a goal—it’s a way of life. We foster an environment where innovation and excellence are integral to every phase of production, from initial research and development to final quality assurance. By integrating modern systems with an unwavering focus on sustainability and safety, we ensure our operations are both cutting-edge and environmentally responsible.
+                        Thank you for taking the time to learn about our facility. We invite you to explore our range of products and discover the passion, precision, and innovation that define every aspect of our manufacturing process.</div>
+                    <ul class="list-style-one" style="color: white;">
+                        <li>State-of-the-art infrastructure blending traditional craftsmanship with modern technology.</li>
+                        <li>Focus on innovation, precision, and reliability in every step of production.</li>
+                        <li>Stringent quality control – monitored by skilled professionals to ensure top-tier standards.</li>
+                        <li>Advanced testing protocols for durability, performance, and consistency.</li>
+                        <li>Sustainable manufacturing practices – environmentally responsible and forward-thinking.</li>
+                        <li>Cutting-edge R&D – continuous innovation to stay ahead in the automotive paint industry.</li>
+                        <li>Dedicated team committed to excellence and continuous improvement.</li>
+                        <li>Integrated safety systems – upholding best practices in health, safety, and environmental care.</li>
+                    </ul>
+                    <!-- <div class="btn-box">
+                        <a href="#" class="theme-btn btn-style-one">Contact Us</a>
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- Image Column -->
+            <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                <div class="inner-column wow fadeInLeft">
+                    <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img src="https://i.ibb.co/QP6Nmpf/image-1-about.jpg" alt=""></a></figure>
+                    <figure class="image-2"><a href="#" class="lightbox-image" data-fancybox="images"><img src="https://i.ibb.co/JvN0NVB/image-2-about.jpg" alt=""></a></figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="info_section layout_padding-top layout_padding2-bottom" style="padding-top: 75px; padding-bottom: 50px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="info_links pl-lg-5">
+                    <h4>
+                        Menu
+                    </h4>
+                    <ul>
+                        <li class="active">
+                            <a href="index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="portfolio.html">Portfolio </a>
+                        </li>
+                        <li>
+                            <a class="" href="service.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="info_contact">
+                    <div>
+                        <img src="/assets/images/telephone.png" alt="" />
+                        <p>
+                            ( +91 62032 32297 )
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- <div class="col-md-6 col-lg-3">
+                <div class="info_social">
+                    <h4>
+                        Social Link
+                    </h4>
+                    <div class="social_container">
+                        <div>
+                            <a href="">
+                                <img src="/assets/images/facebook-logo.png" alt="" />
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="/assets/images/twitter-logo.png" alt="" />
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="/assets/images/instagram.png" alt="" />
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="/assets/images/linkedin-sign.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="col-md-6 col-lg-3">
+                <div class="info_form">
+                    <h4>
+                        Newsletter
+                    </h4>
+                    <form action="#">
+                        <input type="text" placeholder="Enter Your Email" />
+                        <button type="submit">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</section>
+
+</body>
+<footer class="container-fluid footer_section">
+    <p>
+        &copy; 2019 All Rights Reserved By
+        <a href="#">Mayoor Kolors</a>
+    </p>
+</footer>
+<!-- footer section -->

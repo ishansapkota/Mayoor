@@ -34,7 +34,7 @@
   
   .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
     padding: 10px 30px;
-    color: #0878a0;
+    color: white;
     text-align: center;
   }
   .home-button:hover{
@@ -674,7 +674,30 @@
 .color-chart-button:hover,.contact-us-button.nav-link:hover {
   color: white !important;
 }
-
+.dropdown-menu {
+  position: absolute;
+  /* top: 100%; */
+  /* left: 0; */
+  margin-left: 275px !important;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  /* background-color: #fff; */
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  background: linear-gradient(10deg, white, transparent);
+  /* opacity: 0; */
+  /* transform: translateY(-10px); Start slightly above */
+  /* transition: opacity 0.3s ease, transform 0.3s ease; */
+}
 
 .info_section {
   background-color: #201f33;
